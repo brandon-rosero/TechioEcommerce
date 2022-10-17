@@ -1,0 +1,492 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #282C35;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.main-banner-container{
+
+  color: white;
+  height: 80vh;
+  width: 100%;
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  
+
+}
+
+.search-bar{
+
+  border-radius: 200px;
+
+}
+
+.product-header{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+}
+
+.product-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 30px;
+
+}
+
+.main-banner-text{
+
+  font-size: 100px;
+
+}
+
+.small-banner-text{
+
+  margin-top: -70px;
+
+}
+
+.banner-button{
+
+  border: none;
+  background-color: #EE4B2B;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
+  cursor: pointer;
+  
+
+}
+
+.nav-container{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #0f0f0f;
+  height: 70px;
+  padding: 30px;
+}
+
+.store-name{
+
+  font-family: sans-serif;
+  color: white;
+  margin-right: 10px;
+
+}
+
+.cart-button{
+
+  background-color: transparent;
+  border: none;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  color: white;
+
+}
+
+.cart-qty{
+
+  color: #EE4B2B;
+  vertical-align: top;
+  margin-left: -5px;
+  font-size: 15px;
+  font-weight: bolder;
+
+}
+
+.product-card{
+
+  text-align: center;
+  color: #0f0f0f;
+  cursor: pointer;
+  padding: 20px;
+  background-color: #1b1d24;
+  background: linear-gradient(to bottom, white 65%, #1b1d24 35% );
+  color: white;
+  height: 350px;
+  width: 400px;
+
+}
+
+.product-image{
+
+  height: 200px;
+  width: 300px;
+
+}
+
+.all-products-button{
+
+  border: none;
+  background-color: #EE4B2B;
+  height: 50px;
+  width: 200px;
+  margin-top: 30px;
+  cursor: pointer;
+  
+}
+
+.footer-container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #282C35;
+  width: 100%;
+  height: 100px;
+  margin-top: 100px;
+  color: white;
+
+}
+
+.github{
+
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+
+.linkedin{
+
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+
+.email-input{
+
+  width: 200px;
+  height: 25px;
+  border: none;
+  text-align: center;
+
+}
+
+.email-button{
+
+  border: none;
+  background-color: #EE4B2B;
+  height: 25px;
+  width: 75px;
+  margin-left: 10px;
+  cursor: pointer;
+
+}
+
+.product-info-container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+}
+
+.product-info-card{
+
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, white 60%, #1b1d24 40% );
+  color: white;
+  width: 1000px;
+  height: 1000px
+
+}
+
+.product-info-name{
+
+  text-align: center;
+  color: black;
+
+}
+
+.product-info-image{
+
+  height: 400px;
+  width: 600px;
+  margin-top: -50px;
+
+}
+
+.product-info-details{
+
+  margin-top: -50px;
+  text-align: center;
+  color: black;
+  
+}
+
+.product-info-price{
+
+  text-align: center;
+  color: white;
+
+}
+
+.product-info-add{
+
+  border: none;
+  background-color: #EE4B2B;
+  height: 50px;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+
+.product-info-buy{
+
+  border: none;
+  background-color: #EE4B2B;
+  height: 50px;
+  width: 200px;
+  margin-bottom: 20px;
+  cursor: pointer;
+
+}
+
+.product-button-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.product-info-qty-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.minus-symbol{
+
+  cursor: pointer;
+
+}
+
+.plus-symbol{
+
+  cursor: pointer;
+
+}
+
+.product-qty{
+
+  margin-top: -6px;
+  font-size: 30px;
+
+}
+
+.info-page{
+
+  display: flex;
+
+}
+
+.cart-container-wrapper{
+
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.cart-container{
+
+  flex-wrap: wrap;
+  padding: 60px;
+  background-color: #1b1d24;
+  height: 100vh;
+  width: 1000px;
+  overflow: auto;
+  
+}
+
+.cart-header{
+
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 30px;
+  text-align: center;
+  
+}
+
+.empty-shopping-cart{
+
+  color: white;
+  margin-left: 36px;
+
+}
+
+.empty-cart-text{
+
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  
+}
+
+.empty-cart-container{
+
+  margin-top: 375px;
+  margin-left: 348px;
+
+}
+
+.continue-shopping-button{
+
+  background-color: #EE4B2B;
+  padding: 5px;
+  width: 200px;
+  height:35px;
+  border: transparent;
+  margin-top: 20px;
+  margin-left: -12px;
+  cursor: pointer;
+
+}
+
+.other-products-container{
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 40px;
+
+}
+
+.other-items-header{
+
+  text-align: center;
+  color: white;
+
+}
+
+.cart-product-container{
+
+  padding: 30px;
+  display: flex;
+  border-bottom: white;
+  border-bottom-style: solid;
+  border-width: 1px;
+
+}
+
+.cart-image{
+
+  height: 100px;
+  width: 150px;
+
+}
+
+.cart-product-detail{
+
+  margin-top: -20px;
+  margin-left: 50px;
+  color: white;
+}
+
+.cart-product-qty{
+
+  font-size: 36px;
+  margin: 5px;
+  text-align: center;
+
+}
+
+.cart-minus-symbol{
+
+  cursor: pointer;
+
+}
+
+.cart-plus-symbol{
+
+  cursor: pointer;
+
+}
+
+.cart-price-delete-container{
+
+  display: flex;
+  align-items: baseline;
+  gap: 350px;
+
+}
+
+.cart-delete-button{
+
+    background-color: #EE4B2B;
+    padding: 5px;
+    font-size: 10px;
+    cursor: pointer;
+    border: transparent;
+
+}
+
+.cart-price{
+
+  color: white;
+  margin-left: 40px;
+  margin-top: 25px;
+
+}
+
+.cart-total-price{
+
+  text-align: center;
+  color: white;
+
+}
+
+.pay-button-container{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.pay-button{
+
+  background-color: #EE4B2B;
+  padding: 5px;
+  font-size: 20px;
+  width: 200px;
+  border: transparent;
+  cursor: pointer;
+
+}
+
+
