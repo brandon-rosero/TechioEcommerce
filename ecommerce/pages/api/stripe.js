@@ -42,7 +42,6 @@ export default async function handler(req, res) {
             quantity: item.quantity
 
           }
-
         }),
         mode: 'payment',
         success_url: `${req.headers.origin}/?success=true`,
